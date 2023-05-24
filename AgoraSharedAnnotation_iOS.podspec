@@ -17,9 +17,9 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "9.0"
 
-  spec.source_files  = "AgoraSharedAnnotation_iOS/AgoraSharedAnnotation_iOS.framework/Headers/*.{h,m}"
+  spec.source_files  = "AgoraSharedAnnotation_iOS.framework/Headers/*.{h,m}"
 
-  spec.vendored_frameworks = 'AgoraSharedAnnotation_iOS/AgoraSharedAnnotation_iOS.framework'   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  spec.vendored_frameworks = 'AgoraSharedAnnotation_iOS.framework'   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
