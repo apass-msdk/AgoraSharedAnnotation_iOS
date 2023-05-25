@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AgoraSharedAnnotation_iOS"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.0"
   spec.summary      = "A short description of AgoraSharedAnnotation_iOS."
 
   spec.description  = <<-DESC
